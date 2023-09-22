@@ -6,7 +6,7 @@ const getInfoUser = () => {
     let movieslist = movies.split(",");
     console.log(`Hola ${name}, tienes ${age} años.\n`);
     for(let i=0;i<movieslist.length;i++){
-        console.log(`La peli que te gusta la pelicula ${movieslist[i]}.`);
+        console.log(`La peli que te gusta es ${movieslist[i]}.`);
     }
 }
 
